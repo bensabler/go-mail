@@ -2,3 +2,7 @@
 2. Extract help text into a const
 3. Add a tiny helper to reduce repeated fmt.Fprintln(errOut, "...") patterns (still same messages)
 4. Reuse one allowed map for head flags (so it isn’t reallocated each call)
+5. Clarify and lock down “jagged row policy” in README (pad vs truncate, and why).
+6. Add a --strict mode in the future (error on width mismatch instead of normalizing).
+7. Consider validating empty header row (common corrupted CSV issue).
+8. Add tests for ReadHead normalization behavior (short rows padded, long rows truncated).
