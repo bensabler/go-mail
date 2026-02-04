@@ -18,3 +18,9 @@
 13a. header row is preserved byte-for-byte
 13b. row count is preserved
 13c. only expected fields change
+14. Document default null policy in README (what’s on/off by default and why)
+15. Decide whether "null" (lowercase) should be documented explicitly (it is supported, but not stated)
+16. Consider whether to support:
+16a. "NONE", "NIL", "UNKNOWN" (probably not by default)
+17. Decide whether policy should ever be column-specific (likely no, but worth stating)
+18. Add unit tests that table-drive IsNull behavior for each flag combination
