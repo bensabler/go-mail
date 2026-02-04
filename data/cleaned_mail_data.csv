@@ -1,0 +1,11 @@
+first_name,last_name,company,address1,address2,city,state,zip,email,phone
+Ben,Sabler,,123 Main St,,Albany,NY,12207,ben@example.com,5185551234
+Alice,Johnson,Acme Corp,55 2nd Ave,Suite 200,Troy,NY,12180,alice@acme.com,518-555-9876
+Bob,Smith,,789 Broadway,,Schenectady,NY,12305,,5185550000
+,McMahon,Healthcare Group,42 Hospital Rd,,Albany,NY,12208,,
+Laura,,Law Offices of Laura,,Floor 3,Albany,NY,12203,laura@law.com,
+John,Doe,,PO Box 123,, ,NY,,john.doe@email.com,5555555555
+MARY,ANN,RETAIL INC,901 Market St,,BUFFALO,NY,14202,,7165554321
+James,O'Connor,,, , ,Rensselaer,NY,12144,joconnor@email.com,518 555 2468
+Sarah,Lee,Tech Solutions,1600 Tech Park Blvd,Suite 400,Albany,NY,12205,slee@tech.com,
+Mike,Brown,,742 Evergreen Ter,,Springfield,IL,62704,mike@springfield.com,2175559999
