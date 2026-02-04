@@ -1,0 +1,4 @@
+1. Extract exit codes into named constants
+2. Extract help text into a const
+3. Add a tiny helper to reduce repeated fmt.Fprintln(errOut, "...") patterns (still same messages)
+4. Reuse one allowed map for head flags (so it isn’t reallocated each call)
