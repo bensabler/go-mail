@@ -6,3 +6,15 @@
 6. Add a --strict mode in the future (error on width mismatch instead of normalizing).
 7. Consider validating empty header row (common corrupted CSV issue).
 8. Add tests for ReadHead normalization behavior (short rows padded, long rows truncated).
+9. Document CSV NULL semantics explicitly in README:
+9a. NULL == empty field on output
+9b. Why literal "NULL" is input, not output
+10. Clarify that headers are never modified by nullify
+11. Decide whether CellsNullified should:
+11a. count already-empty values (currently: no)
+11b. or strictly count policy matches (currently: no)
+12. Add a short example in README showing before/after nullify
+13. Add a golden test that asserts:
+13a. header row is preserved byte-for-byte
+13b. row count is preserved
+13c. only expected fields change
